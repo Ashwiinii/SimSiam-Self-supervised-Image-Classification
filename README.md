@@ -15,22 +15,22 @@ The notebook uses Python 3, Following are several standard libraries necessary f
 ## Implementation Details
 The notebook contains detailed code cells implementing the SimSiam self-supervised learning method. Below is an overview of the key sections and their purposes:
 
-1. Data Preparation:
+**1. Data Preparation:**
 - Loading datasets such as CIFAR-10.
 - Preprocessing steps including normalization and augmentation.
 
-2. Model Architecture:
+**2. Model Architecture:**
 - Defining the SimSiam architecture using PyTorch or a similar framework.
 - Implementing the backbone network (e.g., ResNet) and the projection head.
   
-3. Training Loop:
+**3. Training Loop:**
 - Implementing the training loop with contrastive loss calculation.
 - Using techniques such as learning rate scheduling, gradient clipping, and checkpointing.
 
-4. Evaluation:
+**4. Evaluation:**
 - Comparing the performance of the SSL method with supervised learning baselines.
 - Visualization of learned representations using techniques like t-SNE.
 
-5. Results and Analysis:
+**5. Results and Analysis:**
 - Presenting quantitative results (accuracy, loss curves).
 - Qualitative analysis of the learned representations.
